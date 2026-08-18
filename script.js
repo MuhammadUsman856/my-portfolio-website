@@ -307,7 +307,7 @@ window.addEventListener("scroll",()=>{
 
     if(!stats || started) return;
 
-    if(window.scrollY > stats.offsetTop-500){
+    if(window.scrollY > stats.offsetTop-1000){
 
         started = true;
 
